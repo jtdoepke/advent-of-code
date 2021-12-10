@@ -23,10 +23,10 @@ func getTestData(t *testing.T) []byte {
 
 func Test_problemPart1(t *testing.T) {
 	got := problemPart1(getTestData(t))
-	assert.Equal(t, "NOT IMPLEMENTED", got)
+	assert.Equal(t, "37", got)
 }
 
 func Test_problemPart2(t *testing.T) {
 	got := problemPart2(getTestData(t))
-	assert.Equal(t, "NOT IMPLEMENTED", got)
+	assert.Equal(t, "168", got)
 }
